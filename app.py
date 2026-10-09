@@ -32,7 +32,7 @@ st.write(
 
 try:
 
-    df = pd.read_csv("data/resolution_results.csv")
+  df = pd.read_csv("resolution_results.csv")
 
 except FileNotFoundError:
 
